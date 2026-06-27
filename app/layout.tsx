@@ -71,7 +71,7 @@ export default function RootLayout({
           <BackgroundParticles />
           {children}
         </Providers>
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <Analytics />
       </body>
     </html>
   );
